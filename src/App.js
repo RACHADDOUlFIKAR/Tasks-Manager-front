@@ -37,7 +37,7 @@ const App = () => {
     const handleTaskDelete = async (taskId) => {
         const confirmed = window.confirm("Êtes-vous sûr de vouloir supprimer cette tâche ?");
         if (!confirmed) {
-            return; // If the user cancels, exit the function
+            return; 
         }
     
         try {
