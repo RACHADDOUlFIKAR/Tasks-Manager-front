@@ -54,7 +54,7 @@ const TaskList = ({ tasks, onTaskEdit, onTaskDelete, onUpdateTaskStatus }) => {
                                                         <div style={{
                                                             display: 'flex',
                                                             justifyContent: 'center', // Center the buttons horizontally
-                                                            alignItems: 'center', // Center the buttons vertically
+                                                            alignItems: 'center', 
                                                             padding: '8px',
                                                         }}>
                                                             <Button
@@ -104,16 +104,16 @@ const TaskList = ({ tasks, onTaskEdit, onTaskDelete, onUpdateTaskStatus }) => {
                             let bgColor;
                             switch (status) {
                                 case 'To_do':
-                                    bgColor = '#e3f2fd'; // Light blue for To Do
+                                    bgColor = '#e3f2fd'; 
                                     break;
                                 case 'In_Progress':
-                                    bgColor = '#bbdefb'; // Medium blue for In Progress
+                                    bgColor = '#bbdefb';
                                     break;
                                 case 'Done':
-                                    bgColor = '#b2dfdb'; // Light teal for Done
+                                    bgColor = '#b2dfdb'; 
                                     break;
                                 default:
-                                    bgColor = '#f5f5f5'; // Default color
+                                    bgColor = '#f5f5f5'; 
                             }
 
                             return (
